@@ -176,6 +176,7 @@ def log_scraped_data(data: List[ScrapedData]):
         logger.info(f"Scraped: {entry.url}")
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port="5500")
+    print("Server is running at port 3000")
+    uvicorn.run(app, host="0.0.0.0", port="3000")
 
 
