@@ -1,0 +1,5 @@
+uvicorn
+fastapi
+bs4
+pydantic
+httpx
