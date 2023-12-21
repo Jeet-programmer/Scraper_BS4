@@ -67,4 +67,4 @@ For any questions or issues, feel free to contact us:
 - **Name**: LumaticAI
 - **Email**: contact@lumaticai.com
 
-Thank you for using the ScraperBS4 FastAPI app! Happy scraping!
+Thank you for using the ScraperBS4 FastAPI app! Happy scraping!!
