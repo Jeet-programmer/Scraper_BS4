@@ -17,4 +17,4 @@ EXPOSE 3000
 ENV PYTHONPATH=/app
 
 # Command to run the application
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "3000"]
+CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "3000"]
