@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  scraper_bs4:
+    image: jeetprogrammer/scraper_bs4
+    container_name: scraper_bs4_app
+    ports:
+      - "3000:3000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - FASTAPI_ENV=production
+
+    # If you want to persist data or logs, you can use volumes
+    # volumes:
+    #   - ./data:/app/data
+    #   - ./logs:/app/logs
